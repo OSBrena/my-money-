@@ -15,10 +15,11 @@
       <div class="eyebrow">MY MONEY</div>
       <h1 id="pageTitle">Carteira Total</h1>
     </div>
-    <button class="icon-btn" id="hideBtn" aria-label="Ocultar saldo">◉</button>
+    <div class="header-right"><div class="flag">🇺🇸</div><button class="icon-btn" id="hideBtn" aria-label="Ocultar saldo">◉</button></div>
   </header>
 
   <main>
+    <section id="walletTabsTop"></section>
     <section class="balance-card">
       <div class="label">Saldo disponível</div>
       <div class="balance" id="balance">$ 0,00</div>
@@ -30,11 +31,6 @@
       <button data-wallet="digital">Digital</button>
       <button data-wallet="cash">Física</button>
     </nav>
-
-    <section class="quick-actions">
-      <button data-view="statement">Extrato</button>
-      <button data-view="summary">Resumo</button>
-    </section>
 
     <section id="content"></section>
   </main>
