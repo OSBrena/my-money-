@@ -1,1 +1,9 @@
-{"name":"My Money","short_name":"My Money","start_url":"./","display":"standalone","background_color":"#f5f6f8","theme_color":"#111827","lang":"pt-BR","icons":[]}
+{
+  "name":"My Money",
+  "short_name":"My Money",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f5f6f8",
+  "theme_color":"#ffd22e",
+  "lang":"pt-BR"
+}
